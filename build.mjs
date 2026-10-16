@@ -46,5 +46,5 @@ const lines = [
 ];
 
 mkdirSync('public', { recursive: true });
-writeFileSync('public/abfall.ics', lines.join('\r\n') + '\r\n');
+writeFileSync('public/trash.ics', lines.join('\r\n') + '\r\n');
 console.log(`Wrote ${events.length} events`);
